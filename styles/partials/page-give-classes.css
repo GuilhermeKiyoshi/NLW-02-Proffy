@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
 }
-
+schedule
 #page-give-classes .page-header .header-content {
     margin-bottom: 6.4rem;
 }
@@ -44,11 +44,11 @@
     cursor: pointer;
     transition: 0.2;
 }
-
+/*--------------------------------------------------------------------------------------------*/
 #page-give-classes fieldset legend button:hover {
     color: var(--color-primary-dark);
 }
-
+/*--------------------------------------------------------------------------------------------*/
 #page-give-classes main footer {
     padding: 4rem 2.4rem;
 
@@ -129,18 +129,18 @@
 
     #page-give-classes #schedule-items .select-block+.input-block,
     #page-give-classes #schedule-items .input-block+.input-block {
-        margin-top: 0;
+        margin-top: 0%;
     }
 
-    #page-give-classe main footer {
-      padding: 40px 64px;
+    #page-give-classes main footer {
+        padding: 40px 64px;
 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    #page-give-classe main footer button {
+    #page-give-classes main footer button {
         margin-top: 0;
 
         width: 200px;

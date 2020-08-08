@@ -12,6 +12,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
+    <script src="/scripts/addFields.js" defer></script>
+
 </head>
 <body id="page-give-classes">
     
@@ -26,9 +28,7 @@
 
             <div class="header-content">
                 <strong>Que incrível que você quer dar aulas</strong>
-                    <p>O primeiro passo, é preencher esse formulário de inscrições</p>
-                
-                   
+                    <p>O primeiro passo, é preencher esse formulário de inscrições</p>       
             </div>
         </header>
 
@@ -56,11 +56,7 @@
                         <label for="bio">Biografia</label>
                         <textarea name="bio" id="bio" required></textarea>
                     </div>
-
                 </fieldset>
-
-
-
 
                 <fieldset>
                     <legend>Sobre a aula</legend>
@@ -88,12 +84,11 @@
                         </label>
                         <input type="cost" id="cost" type="number" required>
                     </div>
-
                 </fieldset>
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo horário</button>
+                        <button type="button" id="add-time">+ Novo horário</button>
                     </legend>
 
                     <div class="schedule-item">
