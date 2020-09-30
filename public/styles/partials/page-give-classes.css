@@ -44,11 +44,11 @@ schedule
     cursor: pointer;
     transition: 0.2;
 }
-/*--------------------------------------------------------------------------------------------*/
+
 #page-give-classes fieldset legend button:hover {
     color: var(--color-primary-dark);
 }
-/*--------------------------------------------------------------------------------------------*/
+
 #page-give-classes main footer {
     padding: 4rem 2.4rem;
 
